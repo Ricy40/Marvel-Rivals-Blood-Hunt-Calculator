@@ -1,14 +1,14 @@
 # Marvel Rivals Blood Hunt Damage Calculator
 
 A desktop damage calculator for the **Blood Hunt** limited mode in Marvel Rivals.  
-Built with Python and tkinter - no external dependencies required.
+Built with Python and tkinter – no external dependencies required.
 
 ---
 
 ## Requirements
 
 - Python 3.10 or newer (uses `float | None` union type hints)
-- No third-party packages - only the Python standard library
+- No third-party packages – only the Python standard library
 
 ---
 
@@ -17,6 +17,7 @@ Built with Python and tkinter - no external dependencies required.
 ```bash
 python bloodhunt_calc.py
 ```
+Alternatively, run the packaged exe (not recommended)
 
 ---
 
@@ -104,7 +105,7 @@ When Base Damage is OFF, `BD = 1` and all outputs are multiplied by 100 to displ
 
 ## Multiple loadouts
 
-Up to **6 loadouts** can be open at once, each in its own tab.
+Up to **6 loadouts** can be opened at once, each in its own tab.
 
 | Toolbar button | Action |
 |---|---|
@@ -116,7 +117,7 @@ Up to **6 loadouts** can be open at once, each in its own tab.
 
 ## Comparison tab
 
-The **Comparison** tab shows all loadouts side by side. It recalculates every value from scratch using its own settings - independently of what is shown on each individual loadout tab.
+The **Comparison** tab shows all loadouts side by side. It recalculates every value from scratch using its own settings – independently of what is shown on each loadout tab.
 
 ### Comparison-specific controls (sticky footer)
 
@@ -163,7 +164,7 @@ where `AHD_base` is the loadout's average hit damage with no bonus sources activ
 
 ### On close
 
-When you press the window's close button (✕), the app checks whether any unsaved changes have been made since the last save or load. If there are none, it closes immediately. If there are, a dialog appears with three options:
+When you press the window's close button (✕), the app checks whether any unsaved changes have been made since the last save or load. If there are none, it closes immediately. If there are, a dialogue appears with three options:
 
 - **Save & Quit** - saves (prompting for a path if needed) then closes.
 - **Quit Without Saving** - closes without saving.
