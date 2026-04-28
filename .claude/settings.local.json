@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python bloodhunt_calc.py)",
+      "Bash(python -c \"import tkinter; import bloodhunt_calc\")",
+      "Bash(python -c \"import bloodhunt_calc\")",
+      "Bash(python -c \"import ast, sys; ast.parse\\(open\\('bloodhunt_calc.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('bloodhunt_calc.py'\\).read\\(\\)\\); print\\('OK'\\)\")"
+    ]
+  }
+}
